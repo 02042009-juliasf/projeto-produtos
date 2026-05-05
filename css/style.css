@@ -1,7 +1,11 @@
 body {
     font-family: Arial;
     padding: 20px;
+    background-color: #1b0d30;
+    color: #e4e4e4;
+    text-align: center;
   }
+  
   
   form {
     display: flex;
@@ -13,12 +17,22 @@ body {
     padding: 8px;
   }
   
-  .item {
-    border: 1px solid #ccc;
+  h1 {
+    text-align: center;
+    color: #e4e4e4;
+    background-color: alicebl;
     padding: 10px;
     margin-top: 10px;
   }
   
   .isento {
-    background-color: lightgreen;
+    border: 2px solid lime;
+    background-color: #0f2a1d;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
   }
