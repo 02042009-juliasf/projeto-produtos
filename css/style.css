@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea, select, button {
+    padding: 8px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .isento {
+    background-color: lightgreen;
+  }

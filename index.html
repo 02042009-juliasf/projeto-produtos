@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Produtos</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Cadastro de Produtos</h1>
+
+  <form id="formProduto">
+
+    <input type="text" id="nome" placeholder="Produto">
+
+    <textarea id="descricao" placeholder="Características"></textarea>
+
+    <input type="number" id="valor" placeholder="Valor unitário">
+
+    <select id="unidade">
+      <option value="">Selecione a unidade</option>
+      <option value="kg">Kg</option>
+      <option value="un">Unidade</option>
+      <option value="lt">Litro</option>
+    </select>
+
+    <div>
+      Tipo:
+      <label><input type="radio" name="tipo" value="1">1</label>
+      <label><input type="radio" name="tipo" value="2">2</label>
+      <label><input type="radio" name="tipo" value="3">3</label>
+      <label><input type="radio" name="tipo" value="4">4</label>
+      <label><input type="radio" name="tipo" value="5">5</label>
+    </div>
+
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <h2>Lista de Produtos</h2>
+  <div id="lista"></div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
